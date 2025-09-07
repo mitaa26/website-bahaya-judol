@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bahaya Judi Online</title>
+
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Rubik:wght@400;600&family=Rubik+Distressed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bahayajudol.css">
+
+  
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">!Bahaya Judol</div>
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#dampak">Dampak</a></li>
+      <li><a href="#fakta">Data & Fakta</a></li>
+      <li><a href="#solusi">Solusi</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Judi Online & Dampak Ekonomi</h1>
+      <p>Korban Triliunan Rupiah dan Resesi Sosial</p>
+      <a href="#dampak" class="btn btn-dark">Lihat Dampak Ekonomi</a><br>
+      <a href="#solusi" class="btn btn-outline">Solusi</a>
+    </div>
+    <div class="hero-img">
+      <img src="foto1.png" alt="Judi Online Bahaya">
+    </div>
+  </section>
+
+  <!-- Wrapper Dampak → Fakta → Solusi -->
+  <div class="bg-wrapper">
+
+    <!-- Section Dampak -->
+    <section id="dampak" class="section reveal">
+      <h2>Dampak</h2>
+      <div class="line"></div>
+      <img src="c1.png" class="coin coin1" alt="coin">
+      <img src="c2.png" class="coin coin2" alt="coin">
+      <div class="cards">
+        <div class="card" onclick="openModal('ekonomi')">
+          <img src="dampak1.png" alt="Dampak Ekonomi">
+          <div class="card-overlay">
+            <h3>Dampak Ekonomi</h3>
+            <p>Kerugian Finansial yang Tidak Terlihat</p>
+          </div>
+        </div>
+        <div class="card" onclick="openModal('sosial')">
+          <img src="dampak2.png" alt="Dampak Sosial">
+          <div class="card-overlay">
+            <h3>Dampak Sosial</h3>
+            <p>Ketika Judi Merobek Kehidupan Sosial</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Ekonomi -->
+    <div class="modal" id="modal-ekonomi">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('ekonomi')">&times;</span>
+        <h3>Dampak Ekonomi</h3>
+        <ul>
+          <li>Estimasi perputaran uang di judi online mencapai Rp 327 triliun (2023)</li>
+          <li>Uang masyarakat dialihkan dari kebutuhan pokok ke perjudian</li>
+          <li>Efek pada konsumsi rumah tangga → lesunya sektor riil</li>
+          <li>Potensi ekonomi gelap dan kehilangan pajak negara</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Modal Sosial -->
+    <div class="modal" id="modal-sosial">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('sosial')">&times;</span>
+        <h3>Dampak Sosial</h3>
+        <ul>
+          <li>Keluarga jadi korban: perceraian, konflik, dan kekerasan</li>
+          <li>Lonjakan kriminalitas karena kehabisan uang</li>
+          <li>Tekanan mental, stres, dan gangguan psikologis</li>
+          <li>Dampak pada anak-anak dan pelajar</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Section Data & Fakta -->
+    <section id="fakta" class="section reveal">
+      <h2>Data & Fakta</h2>
+      <div class="line"></div>
+      <p>Fakta Nyata di Balik Layar Judi Online</p>
+      <img src="c3.png" class="coin coin3" alt="coin">
+      <img src="c4.png" class="coin coin4" alt="coin">
+      <div class="facts">Jumlah pemain aktif: 8,8 juta orang (PPATK 2024)</div>
+      <div class="facts">Umur terbanyak: 17–35 tahun</div>
+      <div class="facts">80% transaksi terjadi lewat e-wallet & pinjol</div>
+      <div class="facts">Daerah dengan penyebaran tertinggi: Jawa, Sumatera</div>
+    </section>
+
+    <!-- Section Solusi -->
+    <section id="solusi" class="solution-section reveal">
+      <h2>Solusi & Pencegahan</h2>
+      <div class="line"></div>
+      <p>Bagaimana Kita Bisa Menghentikannya?</p>
+      <img src="c5.png" class="coin coin5" alt="coin">
+      <img src="c6.png" class="coin coin6" alt="coin">
+      <img src="c7.png" class="coin coin7" alt="coin">
+      <img src="c8.png" class="coin coin8" alt="coin">
+
+      <div class="solution-cards">
+        <div class="solution-card">
+          <img src="solusi1.png" alt="Edukasi Keluarga">
+          <div class="solution-overlay">Peran keluarga: komunikasi terbuka dan pengawasan digital</div>
+        </div>
+        <div class="solution-card">
+          <img src="solusi2.png" alt="Literasi Finansial">
+          <div class="solution-overlay">Peran sekolah: literasi keuangan dan bahaya judi</div>
+        </div>
+        <div class="solution-card">
+          <img src="solusi3.png" alt="Pemblokiran Situs">
+          <div class="solution-overlay">Peran pemerintah: blokir situs & pantau transaksi</div>
+        </div>
+        <div class="solution-card">
+          <img src="solusi4.png" alt="Lapor">
+          <div class="solution-overlay">Aplikasi pelaporan judi online (misalnya: Aduan Kominfo)</div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- end bg-wrapper -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="left">
+      <h3>| Bahaya Judol</h3>
+      <p>Judi online bukan solusi, tapi jalan menuju rugi.</p>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#dampak">Dampak</a></li>
+        <li><a href="#fakta">Data & Fakta</a></li>
+        <li><a href="#solusi">Solusi & Pencegahan</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      ©2025 bahaya judol
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="Kembali ke atas" title="Ke atas">
+  ▲
+</button>
+
+  <script src="bahayajudol.js"></script>
+
+</body>
+</html>
